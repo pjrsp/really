@@ -17,9 +17,9 @@
                 $("#result").html('');
 
                 var oSearch = {
-                    bchcode: $("#bchcode").val()
-                        // date_start: $("#date_start").val()
-                        // date_stop: $("#bchcode").val()
+                    bchcode: $("#bchcode").val(),
+                    date_start: $("#date_start").val(),
+                    date_stop: $("#bchcode").val()
                 };
 
                 $.ajax({
@@ -64,6 +64,7 @@
             <input type="date" name="date_stop" id="date_stop">
             <input type="submit" id="sendmessagebutton" value="Submit" onclick="onSubmit(event);">
         </form>
-        </div ">
-        </body>
+    </div>
+</body>
+
 </html>
